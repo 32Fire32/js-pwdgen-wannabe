@@ -13,4 +13,4 @@ const password = name + surname + color + 76;
 
 console.log(password);
 
-document.querySelector("h1").innerHTML = `la tua password è ${password}`;
+document.querySelector("h2").innerHTML = password;

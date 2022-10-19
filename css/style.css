@@ -1,11 +1,55 @@
 /* RESET */
 
 * {
-    box-sizing: border-box;
+    box-sizing:vh border-box;
     margin: 0;
     padding: 0;
 }
 
-h1 {
+body {
+    color: #fff;
+    height: 100vh;
+    background-color: #000;
+}
+
+.password {
     text-align: center;
+    z-index: 10;
+    background-color: #000;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 60px;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    background-image: url('/img/background.jpg');
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+
+h2 {
+    color: red;
+}
+
+small {
+    color: lightgray;
 }
