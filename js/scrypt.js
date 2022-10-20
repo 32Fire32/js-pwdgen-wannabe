@@ -9,8 +9,10 @@ console.log(surname);
 const color = prompt("Quale è il tuo colore preferito?");
 console.log(color);
 
-const password = name + surname + color + 76;
+// const password = name + surname + color + 76;
 
-console.log(password);
+// console.log(password);
 
-document.querySelector("h2").innerHTML = password;
+// document.querySelector("h2").innerHTML = password;
+
+document.querySelector("h2").innerHTML = `${name}${surname}${color}76`;
