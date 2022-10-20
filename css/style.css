@@ -36,7 +36,7 @@ h2 {
 .container::before {
     content: "";
     position: absolute;
-    background-image: url('/img/background.jpg');
+    background-image: url('../img/background.jpg');
     background-size: cover;
     top: 0px;
     right: 0px;
